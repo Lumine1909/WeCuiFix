@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "wecuifix",
+  "version": "${version}",
+  "name": "WeCuiFix",
+  "description": "A mod that fix WorldEditCUI behavior.",
+  "authors": [
+    "Lumine1909"
+  ],
+  "contact": {
+    "sources": "https://github.com/Lumine1909/WeCuiFix"
+  },
+  "license": "LGPLv3",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "io.github.lumine1909.wecuifix.WeCuiFix"
+    ]
+  },
+  "mixins": [
+    "wecuifix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": ">=1.21.4",
+    "worldedit": "*",
+    "worldeditcui": "*"
+  }
+}

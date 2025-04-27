@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.lumine1909.wecuifix.mixin",
+  "refmap": "wecuifix-refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FabricCuiPacketRegMixin",
+    "FabricPlayerMixin",
+    "WeCuiPacketHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
