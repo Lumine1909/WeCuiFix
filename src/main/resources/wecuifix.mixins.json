@@ -5,9 +5,9 @@
   "refmap": "wecuifix-refmap.json",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "FabricCuiPacketRegMixin",
-    "FabricPlayerMixin",
-    "WeCuiPacketHandlerMixin"
+    "CuiNetworkingMixin",
+    "FabricCuiPacketHandlerMixin",
+    "FabricCuiPacketRegMixin"
   ],
   "injectors": {
     "defaultRequire": 1
