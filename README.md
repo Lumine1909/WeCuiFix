@@ -2,6 +2,8 @@
 
 A fabric mod that fix WorldEdit work with WorldEditCUI on 1.20.5+
 
+Since 1.21.6, WorldEdit and WorldEditCUI are compatible with each other, this mod is unnecessary
+
 Please install this mod with both WorldEdit and WorldEditCUI
 
 ----------
