@@ -24,7 +24,7 @@
     "fabricloader": "*",
     "fabric": "*",
     "minecraft": ">=1.20.5",
-    "worldedit": "*",
+    "worldedit": "<7.3.13",
     "worldeditcui": "*"
   }
 }
